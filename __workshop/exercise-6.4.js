@@ -6,6 +6,11 @@ function exercise6_4() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let number = 36; number > -1; number--) {
+    if (number % 2 === 0) {
+      console.log(number);
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
